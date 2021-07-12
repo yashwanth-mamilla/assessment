@@ -63,7 +63,7 @@ public class CalendarView extends WrapContentViewPager implements OnDateChangedL
 
     private int calendarColor;
     private boolean startsOnSunday;
-    private static final String CALENDARVIEW_MC_COLOR = "CalendarView_mc_color";
+    private static final String CALENDARVIEW_MC_COLOR = "mc_color";
     private static final String CALENDARVIEW_MC_STARTSONSATURDAY = "CalendarView_mc_startsOnSunday";
     static final HiLogLabel label = new HiLogLabel(HiLog.LOG_APP, 0xD000F00, "CALENDAR_VIEW");
 
@@ -76,8 +76,7 @@ public class CalendarView extends WrapContentViewPager implements OnDateChangedL
     public CalendarView(Context context, AttrSet attrs)  {
         super(context, attrs);
         this.startsOnSunday = false;
-        calendarColor=attrs.getAttr(CALENDARVIEW_MC_COLOR).isPresent() ?
-                attrs.getAttr(CALENDARVIEW_MC_COLOR).get().getColorValue().getValue() : 0x3F51B5;
+        calendarColor=attrs.getAttr(CALENDARVIEW_MC_COLOR).isPresent() ? attrs.getAttr(CALENDARVIEW_MC_COLOR).get().getColorValue().getValue() : 0x3F51B5;
         startsOnSunday= attrs.getAttr(CALENDARVIEW_MC_STARTSONSATURDAY).isPresent() &&
                     attrs.getAttr(CALENDARVIEW_MC_STARTSONSATURDAY).get().getBoolValue() ;
         init();
@@ -95,7 +94,10 @@ public class CalendarView extends WrapContentViewPager implements OnDateChangedL
         if(this.getBackgroundElement()==null)
         {
             ShapeElement element=new ShapeElement();
-            element.setRgbColor(new RgbColor(63,81,181));
+            //if(calendarColor==0x3F51B5)
+            //element.setRgbColor(new RgbColor(63,81,181));
+            //else
+                element.setRgbColor(new RgbColor(RgbColor.fromArgbInt(calendarColor)));
             setBackground(element);
         }
 
