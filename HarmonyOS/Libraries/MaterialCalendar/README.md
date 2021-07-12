@@ -21,7 +21,8 @@ Example:
                 ohos:height="match_content"
                 ohos:width="match_parent"
                 ohos:id="$+id:calendarView"
-		app:mc_color="$color:colorPrimary"/>
+		app:mc_color="$color:colorPrimary"
+	/>
 ```
 Check the example app for more information.
 
