@@ -1,0 +1,34 @@
+
+k	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïí“Ñùÿÿÿÿ
+x
+java:S3008"]Rename this field "_indicatorDrawable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è­Ò’úÿÿÿÿ
+x
+java:S3008"]Rename this field "_selectionDrawable" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÄÊ”üÿÿÿÿ
+w
+java:S3008"aRename this field "_indicatorMarginBottom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìŠş
+t
+java:S3008"YRename this field "_indicatorSize" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÂ İùÿÿÿÿ
+u
+java:S3008"ZRename this field "_measuredHeight" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°´µøşÿÿÿÿ
+s
+java:S3008"XRename this field "_colorPrimary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò­¼êùÿÿÿÿ
+S
+java:S3878T"8Remove this array creation and simply pass the elements.(§ËÖ‡øÿÿÿÿ
+P
+java:S1161n":Add the "@Override" annotation above this method signature(Û³È®
+U
+java:S1161s":Add the "@Override" annotation above this method signature(Ú±Ô×øÿÿÿÿ
+T
+java:S1117¡"=Rename "indicator" which hides the field declared at line 42.(¥è¤â
+R
+java:S2696­"6Make the enclosing method "static" or remove this set.(½‚ñşøÿÿÿÿ
+R
+java:S2696´"6Make the enclosing method "static" or remove this set.(›Ãó÷øÿÿÿÿ
+R
+java:S2696»"6Make the enclosing method "static" or remove this set.(ŸªÆ³üÿÿÿÿ
+M
+java:S2696Â"6Make the enclosing method "static" or remove this set.(Ñ›ËÙ
+R
+java:S2696É"6Make the enclosing method "static" or remove this set.(Æê²®ıÿÿÿÿ
+L
+java:S1068"1Remove this unused "_colorPrimary" private field.(Ò­¼êùÿÿÿÿ

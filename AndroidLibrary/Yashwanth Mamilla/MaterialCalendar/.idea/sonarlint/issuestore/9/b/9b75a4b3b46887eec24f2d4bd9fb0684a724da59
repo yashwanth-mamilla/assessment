@@ -1,0 +1,19 @@
+
+˜
+java:S1319Å"|The type of the "dayViewDecorators" object should be an interface such as "List" rather than the implementation "ArrayList".(úá“³ıÿÿÿÿ
+K
+java:S3740˜"/Provide the parametrized type for this generic.(¦Êæ¦ÿÿÿÿÿ
+K
+java:S3740Ï"/Provide the parametrized type for this generic.(¬œŠÒÿÿÿÿÿ
+F
+java:S1066­"/Merge this if statement with the enclosing one.(Ô×ÃÛ
+r
+java:S1104Ã"VMake mDateStart a static final constant or non-public and provide accessors if needed.(§£Áƒùÿÿÿÿ
+i
+java:S1104Ä"RMake mViews a static final constant or non-public and provide accessors if needed.(ÇÍ“Û
+y
+java:S1104Å"]Make dayViewDecorators a static final constant or non-public and provide accessors if needed.(úá“³ıÿÿÿÿ
+V
+java:S1161»":Add the "@Override" annotation above this method signature(™Î«şÿÿÿÿ
+V
+java:S1161á":Add the "@Override" annotation above this method signature(²øÏúıÿÿÿÿ

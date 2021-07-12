@@ -1,0 +1,7 @@
+
+Š
+java:S1319"tThe type of the "calendarDays" object should be an interface such as "Set" rather than the implementation "HashSet".(èœ±
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹°Ô¹şÿÿÿÿ
+D
+java:S1068")Remove this unused "color" private field.(Ç€Œ»üÿÿÿÿ
